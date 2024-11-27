@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBAC User Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Role-Based Access Control (RBAC)</h1>
+      <div class="dark-mode-toggle">
+        <i id="dark-mode-icon" class="fas fa-moon" onclick="toggleDarkMode()"></i>
+      </div>
+    </div>
+
+    <section id="role-section">
+      <h2>Roles</h2>
+      <div class="input-group">
+        <input type="text" id="role-input" placeholder="Enter new role">
+        <button onclick="addRole()">Add Role</button>
+      </div>
+      <ul id="role-list"></ul>
+    </section>
+
+    <section id="user-section">
+      <h2>Users</h2>
+      <div class="input-group">
+        <input type="text" id="user-input" placeholder="Enter new user">
+        <select id="role-select">
+          <option value="">Assign Role</option>
+        </select>
+        <button onclick="addUser()">Add User</button>
+      </div>
+      <ul id="user-list"></ul>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
