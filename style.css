@@ -111,6 +111,17 @@ ul {
     padding: 0;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 li {
     background-color: #e0e0e0;
     margin-bottom: 5px;
@@ -120,6 +131,7 @@ li {
     justify-content: space-between;
     align-items: center;
     transition: background-color 0.3s, color 0.3s;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 body.dark-mode li {
