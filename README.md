@@ -19,13 +19,4 @@ To install the project, follow these steps:
 2. Navigate to the project directory:
     ```bash
     cd vrsecurity
-    ```
-3. Install the dependencies:
-    ```bash
-    npm install
-    ```
 
-## Usage
-To start the application, run:
-```bash
-npm start
