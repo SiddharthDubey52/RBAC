@@ -5,10 +5,13 @@ Developed a Role-Based Access control user interface for add User With their Job
 Technology Used : Html5, CSS3 , JavaScript (ES6+).
 
 ## Features
--Role management :- Supports dynamic creation and storage of multiple roles
--User Management :- Allows assigning a specific role to each user during creation.
--Theme Switching :- Includes a toggle (moon icon), likely for enabling light/dark mode for enhanced user experience.
--Real-Time Updates :- Likely updates roles and users dynamically as they are added
+Role management :- Supports dynamic creation and storage of multiple roles
+
+User Management :- Allows assigning a specific role to each user during creation.
+
+Theme Switching :- Includes a toggle (moon icon), likely for enabling light/dark mode for enhanced user experience.
+
+Real-Time Updates :- Likely updates roles and users dynamically as they are added
 
 
 ## Installation
