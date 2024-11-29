@@ -1,13 +1,15 @@
 # VR Security Project
 
 ## Overview
-This project is focused on developing security solutions for virtual reality (VR) environments. It aims to address the unique challenges and threats posed by VR technology.
+Developed a Role-Based Access control user interface for add User With their Job Role in Company and we can add Different role for different users. 
+Technology Used : Html5, CSS3 , JavaScript (ES6+).
 
 ## Features
-- User authentication and authorization
-- Secure data transmission
-- Privacy protection
-- Threat detection and mitigation
+Role management :- Supports dynamic creation and storage of multiple roles
+User Management :- Allows assigning a specific role to each user during creation.
+Theme Switching :- Includes a toggle (moon icon), likely for enabling light/dark mode for enhanced user experience.
+Real-Time Updates :- Likely updates roles and users dynamically as they are added
+
 
 ## Installation
 To install the project, follow these steps:
